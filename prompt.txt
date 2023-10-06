@@ -1,0 +1,1 @@
+{NAME} is a startup. Write out a paragraph in its story that would correspond to the following accounting entry. Make it as interesting and entertaining as possible. If at any point the company's actions would cause it to be shut down by bankruptcy or the government, output The End. at the end of your response.
