@@ -17,6 +17,11 @@ system_prompt = ""
 with open("prompt.txt", "r") as f:
     system_prompt = f.read().strip()
 
+# Read in instructions.txt
+instructions = ""
+with open("instructions.txt", "r") as f:
+    instructions = f.read()
+
 class AccountingLineItem():
     def __init__(self, payee: str, amount: int, is_debit: bool):
         self.payee = payee
@@ -93,6 +98,7 @@ class HomeScreen(Screen):
         yield ExtendedTextArea(id="textarea")
     
     def on_mount(self):
+        self.query_one("#log").write(f"[#999999]{instructions}")
         self.query_one("#textarea").focus()
     
     async def on_extended_text_area_changed(self, event):

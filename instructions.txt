@@ -1,0 +1,23 @@
+Welcome to FrickBooks, aspiring entrepreneur.
+
+As the world's least useful piece of accounting software, FrickBooks is designed to give you maximum visibility into your company's finances. To get started, click the textbox on the bottom, enter in an accounting entry, then hit ENTER twice at the end. Watch as FrickBooks's AI gets to work analyzing your company.
+
+Here are some example entries to familiarize you with the format (and for inspiration):
+
+1. Your startup gets some small seed funding from a few investors.
+
+   Dr. Cash $10000
+   Cr. Paid-in Capital $10000
+
+2. Your startup hires its first few employees.
+
+   Dr. Wage Expense $5000
+   Cr. Wages Payable $5000
+
+3. Your startup makes some sales, and you pay your outstanding wages before pocketing the rest as cash:
+
+   Dr. Wages Payable $5000
+   Dr. Cash $15000
+   Cr. Sales Revenue $20000
+
+Happy accounting!
